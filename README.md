@@ -65,6 +65,22 @@ deadweights/
 
 ---
 
+## Acknowledgements
+
+This project wouldn't exist without the work of people who put exceptional
+effort into making these ideas genuinely teachable:
+
+- **[Grant Sanderson (3Blue1Brown)](https://www.3blue1brown.com)** — for visual
+  explanations of neural networks and attention that set the bar for what
+  technical intuition-building can look like.
+- **[Andrej Karpathy](https://karpathy.ai)** — for building everything from
+  scratch, on camera, and making it feel approachable rather than intimidating.
+- **[Jay Alammar](https://jalammar.github.io)** — for the illustrated walkthroughs
+  of the transformer architecture that have become required reading for anyone
+  learning this material.
+
+---
+
 ## License
 
 MIT
