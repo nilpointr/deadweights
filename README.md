@@ -22,6 +22,32 @@ Before any code gets written, there's a self-paced reading and video curriculum 
 
 **[tiny-transformer-curriculum.md](./tiny-transformer-curriculum.md)** — phases, checkpoints, and a running glossary. Keep this open while building; it's the reference to return to when something in the code stops making sense.
 
+### CLI
+
+A small script (`dw.py`) manages progress through the curriculum without hand-editing the markdown:
+
+```bash
+# Show completion summary across all phases
+python3 dw.py progress
+
+# List items in a specific phase (to find item numbers)
+python3 dw.py progress 2
+
+# Mark an item complete (phase, then item number shown in progress)
+python3 dw.py check 2 1
+
+# Append a note to the "Things That Were Confusing" section
+python3 dw.py note "Q/K/V finally clicked when I stopped thinking of K and V as the same thing"
+
+# Fill in a glossary definition
+python3 dw.py define "Token" "The smallest unit the model sees — a character in our case"
+
+# Reset curriculum to a clean slate (prompts for confirmation)
+python3 dw.py reset
+```
+
+`reset` copies `curriculum-template.md` back over the working curriculum. The template is the original clean copy — never modified. If you want to keep someone else's notes and progress while starting fresh yourself, stash or branch before resetting.
+
 ---
 
 ## Scope
@@ -59,7 +85,9 @@ pip install torch
 ```
 deadweights/
 ├── README.md
-├── tiny-transformer-curriculum.md   # read this first
+├── dw.py                            # curriculum CLI
+├── tiny-transformer-curriculum.md   # working copy — gets checked off and annotated
+├── curriculum-template.md           # clean copy — source for dw reset
 └── ...                              # model code lives here once the build starts
 ```
 
