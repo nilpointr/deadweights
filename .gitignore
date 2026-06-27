@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# PyTorch / model artifacts
+*.pt
+*.pth
+*.ckpt
+
+# Data / corpus files (add specific ones back explicitly if needed)
+data/
+*.txt
+*.bin
+
+# Env
+.env
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
