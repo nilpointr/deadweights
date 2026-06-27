@@ -58,11 +58,11 @@ Not required, but helpful:
 Skip this phase entirely if already comfortable with "what is a gradient,
 and why do we descend it" and basic backprop intuition.
 
-- [ ] **3Blue1Brown — "Neural Networks" series** (YouTube, ~4 videos, 1-2 hrs)
+- [ ] **[3Blue1Brown — "Neural Networks" series](https://youtu.be/aircAruvnKk)** (YouTube, ~4 videos, 1-2 hrs)
       The best visual intuition for gradient descent/backprop available.
       No code, pure intuition-building.
-- [ ] **Karpathy — "The spelled-out intro to neural networks and
-      backpropagation"** (YouTube, ~2.5 hrs)
+- [ ] **[Karpathy — "The spelled-out intro to neural networks and
+      backpropagation"](https://youtu.be/VMj-3S1tku0)** (YouTube, ~2.5 hrs)
       Builds backprop from scratch in Python (micrograd). More hands-on
       than 3Blue1Brown — a good choice for anyone who wants the
       "build-it-yourself" version of fundamentals before moving on.
@@ -78,19 +78,19 @@ mechanically.
 The goal of this phase is being able to explain what Q/K/V are doing and why
 attention is "soft lookup" — entirely in plain English, no math required.
 
-- [ ] **3Blue1Brown — "But what is a GPT? Visual intro to Transformers"**
+- [ ] **[3Blue1Brown — "But what is a GPT? Visual intro to Transformers"](https://youtu.be/wjZofJX0v4M)**
       (YouTube) — a 30,000-foot view of the architecture, with the best
       visual explanation of tokens-as-vectors available anywhere.
-- [ ] **3Blue1Brown — "Attention in transformers, visually explained"**
+- [ ] **[3Blue1Brown — "Attention in transformers, visually explained"](https://youtu.be/eMlx5fFNoYc)**
       (YouTube) — the direct follow-up, focused specifically on what
       attention is doing geometrically (routing information between
       positions in a sequence).
-- [ ] **Jay Alammar — "The Illustrated Transformer"** (blog post)
+- [ ] **[Jay Alammar — "The Illustrated Transformer"](https://jalammar.github.io/illustrated-transformer)** (blog post)
       The classic. Walks through the full architecture diagram piece by
       piece with diagrams. Recommended almost universally — treat this as
       required reading, not optional.
 - [ ] *(Optional, for the encoder/decoder picture before the decoder-only
-      GPT picture)* **Jay Alammar — "The Illustrated GPT-2"** (blog post)
+      GPT picture)* **[Jay Alammar — "The Illustrated GPT-2"](https://jalammar.github.io/illustrated-gpt2)** (blog post)
       Narrows Alammar's general transformer explanation down to the
       decoder-only architecture this project actually builds.
 
@@ -106,7 +106,7 @@ This is the centerpiece. Karpathy's video builds a GPT-like model from raw
 Python up through a working character-level transformer, explaining every
 line along the way.
 
-- [ ] **Karpathy — "Let's build GPT: from scratch, in code, spelled out."**
+- [ ] **[Karpathy — "Let's build GPT: from scratch, in code, spelled out."](https://youtu.be/kCc8FmEb1nY)**
       (YouTube, ~2 hrs)
       - **Pass 1 — Passive watch.** No coding along. Just absorb the shape
         of the thing: what sections exist, roughly what order pieces get
@@ -116,7 +116,7 @@ line along the way.
         doesn't click, stop the video and sit with the "why this line"
         question before moving on — this is where the real learning
         happens, not the first watch.
-- [ ] *(Reference while doing Pass 2)* **nanoGPT repo** (Karpathy, GitHub)
+- [ ] *(Reference while doing Pass 2)* **[nanoGPT repo](https://github.com/karpathy/nanoGPT)** (Karpathy, GitHub)
       The "official" cleaned-up version of what the video builds. Useful to
       diff a typed-along version against afterward — not to copy from.
 
@@ -132,13 +132,13 @@ Once there's working intuition from Phases 1-2, this phase connects it to
 the "official" academic formulation and terminology — useful so that papers
 and other people's code stop looking like a different language.
 
-- [ ] **"The Annotated Transformer"** (Harvard NLP)
+- [ ] **["The Annotated Transformer"](https://nlp.seas.harvard.edu/annotated-transformer)** (Harvard NLP)
       The original "Attention Is All You Need" paper, annotated line-by-line
       with executable PyTorch code inline. Denser and more academic than
       Karpathy's video — best done *after* Phase 2, as a "now see it the
       formal way" pass rather than a first introduction to the material.
-- [ ] *(Optional, for the historically curious)* **"Attention Is All You
-      Need"** (Vaswani et al., 2017) — the original paper itself. Mostly
+- [ ] *(Optional, for the historically curious)* **["Attention Is All You
+      Need"](https://arxiv.org/abs/1706.03762)** (Vaswani et al., 2017) — the original paper itself. Mostly
       useful at this point to see where the now-familiar terminology
       actually originated.
 
